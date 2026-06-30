@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+easyocr
+torch
+opencv-python
+python-multipart
