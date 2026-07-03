@@ -8,6 +8,9 @@ A high-performance OCR Converter application powered by FastAPI, EasyOCR, and a 
 - **Vanilla HTML/CSS/JS Frontend**: Clean, modern web UI for image uploading and text results rendering.
 - **Streamlit Interactive App**: Rich, modern, single-command app with built-in image uploading, confidence thresholds, detail tables, and result downloading.
 
+*  **[OCR Converter App:](https://vath7677.github.io/web_ocr/)**: A high-performance tool built with FastAPI and EasyOCR, featuring a modern web interface for real-time text extraction from images.
+
+
 ## Setup and Python Environment Configuration
 
 This project uses [uv](https://github.com/astral-sh/uv) to manage Python versions, virtual environments, and package dependencies.
@@ -57,6 +60,5 @@ If you prefer to run the client-server setup:
 The `model/` weights folder is located at the project root (outside the `app/` directory) for the following reasons:
 1. **Clean Version Control**: Separates large binary weights from source code files, allowing easy Git ignoring via the root `.gitignore`.
 2. **Optimized Deployment/Docker builds**: Prevents deployment and container tools from bundling massive local model weights into container images.
-3. **Shared Accessibility**: Makes models easily accessible to both the FastAPI backend (`app/main.py`) and the root-level Streamlit dashboard (`streamlit_app.py`).
 
 
