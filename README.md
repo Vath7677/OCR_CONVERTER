@@ -9,7 +9,7 @@ A high-performance OCR Converter application powered by FastAPI, EasyOCR, and a 
 - **Streamlit Interactive App**: Rich, modern, single-command app with built-in image uploading, confidence thresholds, detail tables, and result downloading.
 
 
-## Web UI
+## Web UI For Testing
 
 *  **[OCR Converter App](https://vath7677.github.io/web_ocr/)**: A high-performance tool built with FastAPI and EasyOCR, featuring a modern web interface for real-time text extraction from images.
 
