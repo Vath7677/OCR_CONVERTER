@@ -12,17 +12,7 @@ A high-performance OCR Converter application powered by FastAPI, EasyOCR, and a 
 
 This project uses [uv](https://github.com/astral-sh/uv) to manage Python versions, virtual environments, and package dependencies.
 
-### 1. Install `uv` (If not already installed)
-* **Windows (PowerShell)**:
-  ```powershell
-  powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-  ```
-* **macOS/Linux**:
-  ```bash
-  curl -LsSf https://astral.sh/uv/install.sh | sh
-  ```
-
-### 2. Set Up the Python Environment
+### 1. Set Up the Python Environment
 Once `uv` is installed, run the following command at the project root to configure the virtual environment and install all project dependencies:
 ```bash
 uv sync
@@ -32,7 +22,7 @@ This single command automatically:
 - Creates a local virtual environment under the `.venv/` directory.
 - Installs all dependencies (FastAPI, Streamlit, PyTorch, EasyOCR, OpenCV) inside the environment.
 
-### 3. Activate the Environment (Optional)
+### 2. Activate the Environment (Optional)
 If you want to manually run python commands directly from your terminal rather than prefixing them with `uv run`:
 * **Windows (PowerShell)**:
   ```powershell
@@ -43,25 +33,20 @@ If you want to manually run python commands directly from your terminal rather t
   source .venv/bin/activate
   ```
 
-### 4. Prerequisite: Model Weights
+### 3. Prerequisite: Model Weights
 *Note: Although EasyOCR automatically downloads language weights during the first run directly into the local `model` folder, you can pre-place or add custom model weights at:*
 - `model/detector.pt`
 - `model/recognizer.pt`
 
-### 2. Run the Streamlit Application (Recommended)
-You can run the fully interactive Streamlit application in a single command. It runs the OCR engine directly:
-```bash
-uv run streamlit run streamlit_app.py
-```
-Open [http://localhost:8501](http://localhost:8501) in your browser.
 
-### 3. Alternate option: FastAPI Backend + Static Web Frontend
+### 4. Alternate option: FastAPI Backend + Static Web Frontend
 If you prefer to run the client-server setup:
 * **Start the Backend**:
   ```bash
   uv run uvicorn app.main:app --reload
   ```
   *(API: http://localhost:8000)*
+  
 * **Start the Static Web Server**:
   ```bash
   uv run python -m http.server 3000 --directory frontend
