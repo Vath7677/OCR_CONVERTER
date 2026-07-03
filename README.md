@@ -8,7 +8,10 @@ A high-performance OCR Converter application powered by FastAPI, EasyOCR, and a 
 - **Vanilla HTML/CSS/JS Frontend**: Clean, modern web UI for image uploading and text results rendering.
 - **Streamlit Interactive App**: Rich, modern, single-command app with built-in image uploading, confidence thresholds, detail tables, and result downloading.
 
-*  **[OCR Converter App:](https://vath7677.github.io/web_ocr/)**: A high-performance tool built with FastAPI and EasyOCR, featuring a modern web interface for real-time text extraction from images.
+
+## Web UI
+
+*  **[OCR Converter App](https://vath7677.github.io/web_ocr/)**: A high-performance tool built with FastAPI and EasyOCR, featuring a modern web interface for real-time text extraction from images.
 
 
 ## Setup and Python Environment Configuration
@@ -20,10 +23,6 @@ Once `uv` is installed, run the following command at the project root to configu
 ```bash
 uv sync
 ```
-This single command automatically:
-- Installs the required Python version.
-- Creates a local virtual environment under the `.venv/` directory.
-- Installs all dependencies (FastAPI, Streamlit, PyTorch, EasyOCR, OpenCV) inside the environment.
 
 ### 2. Activate the Environment (Optional)
 If you want to manually run python commands directly from your terminal rather than prefixing them with `uv run`:
