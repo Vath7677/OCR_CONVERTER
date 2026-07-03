@@ -1,7 +1,6 @@
 # OCR Converter 
 
 
-
 ## Web UI 
 
 *  **[OCR Converter App](https://vath7677.github.io/web_ocr/)**: A high-performance tool built with FastAPI and EasyOCR, featuring a modern web interface for real-time text extraction from images.
@@ -11,7 +10,6 @@
 - **FastAPI Backend**: Clean and fast backend endpoint for OCR processing.
 - **EasyOCR Integration**: State-of-the-art OCR engine with multi-language support (English).
 - **Vanilla HTML/CSS/JS Frontend**: Clean, modern web UI for image uploading and text results rendering.
-- **Streamlit Interactive App**: Rich, modern, single-command app with built-in image uploading, confidence thresholds, detail tables, and result downloading.
 
 
 ## Setup and Python Environment Configuration
