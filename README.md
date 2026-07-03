@@ -1,6 +1,5 @@
 # OCR Converter 
 
-A high-performance OCR Converter application powered by FastAPI, EasyOCR, and a web-based frontend.
 
 
 ## Web UI 
