@@ -38,8 +38,8 @@ If you want to manually run python commands directly from your terminal rather t
 
 ### 3. Prerequisite: Model Weights
 *Note: Although EasyOCR automatically downloads language weights during the first run directly into the local `model` folder, you can pre-place or add custom model weights at:*
-- `model/detector.pt` Name: `craft_mlt_25k.pth`
-- `model/recognizer.pt` Name: `english_g2.pth`
+- `craft_mlt_25k.pth`
+- `english_g2.pth`
 
 
 ### 4. Alternate option: FastAPI Backend + Static Web Frontend
