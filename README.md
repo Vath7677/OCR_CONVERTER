@@ -5,7 +5,7 @@
 
 *  **[OCR Converter App](https://vath7677.github.io/web_ocr/)**: A high-performance tool built with FastAPI and EasyOCR, featuring a modern web interface for real-time text extraction from images.
 
-### Silde presentation
+## Silde presentation
 
 *  **OCR Slide: Click the link and download it ([https://vath7677.github.io/web_ocr/](https://github.com/Vath7677/OCR_CONVERTER/blob/main/Optical-Character-Recognition.pdf))**
 
