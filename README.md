@@ -7,7 +7,7 @@
 
 ## Silde presentation
 
-*  **OCR Slide: Click the link and download it ([https://vath7677.github.io/web_ocr/](https://github.com/Vath7677/OCR_CONVERTER/blob/main/Optical-Character-Recognition.pdf))**
+*  **OCR Slide: Click the link and download it ([https://vath7677.github.io/web_ocr/](https://github.com/Vath7677/OCR_CONVERTER/blob/main/Optical-Character-Recognition-OCR.pptx.pptx)**
 
 ## Features
 - **FastAPI Backend**: Clean and fast backend endpoint for OCR processing.
